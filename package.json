@@ -4,7 +4,12 @@
   "description": "Boilerplate for npm modules.",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "cross-env BABEL_ENV=commonjs mocha --compilers js:babel-register --recursive"
+    "clean": "rimraf lib",
+    "test": "cross-env BABEL_ENV=commonjs mocha --compilers js:babel-register --recursive",
+    "lint": "eslint src test",
+    "test:examples": "node examples/",
+    "build": "cross-env BABEL_ENV=commonjs babel src --out-dir lib",
+    "prepublish": "npm run clean && npm run lint && npm run test && npm run build"
   },
   "files": [
     "lib",
