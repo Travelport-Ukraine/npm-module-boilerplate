@@ -6,6 +6,7 @@
   "scripts": {
     "clean": "rimraf lib",
     "test": "cross-env BABEL_ENV=commonjs mocha --compilers js:babel-register --recursive",
+    "cover": "cross-env BABEL_ENV=commonjs istanbul cover _mocha -- --compilers js:babel-register --recursive",
     "lint": "eslint src test",
     "test:examples": "node examples/",
     "build": "cross-env BABEL_ENV=commonjs babel src --out-dir lib",
@@ -46,6 +47,7 @@
     "eslint-plugin-import": "^1.10.0",
     "eslint-plugin-jsx-a11y": "^1.5.3",
     "eslint-plugin-react": "^5.2.2",
+    "istanbul": "^1.0.0-alpha",
     "mocha": "^2.5.3",
     "rimraf": "^2.5.2"
   }
