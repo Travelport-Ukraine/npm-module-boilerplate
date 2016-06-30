@@ -6,6 +6,10 @@
   "scripts": {
     "test": "cross-env BABEL_ENV=commonjs mocha --compilers js:babel-register --recursive"
   },
+  "files": [
+    "lib",
+    "src"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Travelport-Ukraine/npm-module-boilerplate.git"
