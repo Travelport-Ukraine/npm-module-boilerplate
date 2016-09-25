@@ -1,1 +1,1 @@
-export const awesomeFunction = (a, b) => a + b;
+export default function awesomeFunction(a, b) { return a + b; }
