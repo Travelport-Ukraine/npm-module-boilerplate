@@ -1,4 +1,6 @@
 # Why? [![Build Status](https://travis-ci.org/Travelport-Ukraine/npm-module-boilerplate.svg?branch=master)](https://travis-ci.org/Travelport-Ukraine/npm-module-boilerplate)
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/Travelport-Ukraine/npm-module-boilerplate.svg)](https://greenkeeper.io/)
 :page_with_curl: Boilerplate for npm/node module. Write with ES6 - have compatibility with all node versions.
 
 This boilerplate is for people who want write code using all ES6 features ( and stage-2 ) but also want/need backwards compatibility with old node versions. 
