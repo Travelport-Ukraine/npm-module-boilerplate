@@ -1,7 +1,11 @@
 # Why? [![Build Status](https://travis-ci.org/Travelport-Ukraine/npm-module-boilerplate.svg?branch=master)](https://travis-ci.org/Travelport-Ukraine/npm-module-boilerplate)
 :page_with_curl: Boilerplate for npm/node module. Write with ES6 - have compatibility with all node versions.
 
-This boilerplate is for people who want write code using all ES6 features ( and stage-2 ) but also want/need backwards compatibility with old node versions. 
+This boilerplate is for people who want write code using all ES6 features ( and stage-2 ) but also want/need backward compatibility with old node versions. 
+
+# Node version
+
+This boilerplate uses `babel-preset-env`. Supported `node` version can be defined in `.babelrc`. 
 
 # Features
 * Build with [Babel](https://babeljs.io). (ES6 -> ES5)
