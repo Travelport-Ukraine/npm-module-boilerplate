@@ -1,6 +1,6 @@
 {
   "name": "npm-module-boilerplate-es6",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Boilerplate for npm modules.",
   "main": "./lib/index.js",
   "scripts": {
